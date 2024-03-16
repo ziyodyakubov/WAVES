@@ -329,7 +329,7 @@ button {
 }
 
 .container {
-  max-width: 1240px !important;
+  max-width: 1300px !important;
   margin: 0 auto !important;
 }
 
@@ -381,6 +381,9 @@ header .nav_button i {
 }
 header .nav_button:hover {
   background-color: rgba(133, 71, 233, 0.831372549);
+}
+header .nav_button:active {
+  background-color: #8447e9;
 }
 
 main #section-1 .section-1_wrapper {
@@ -486,6 +489,7 @@ main #section-2 .section-2_wrapper h2 {
   }
 }
 main #section-2 .section-2_wrapper-companies .right {
+  cursor: pointer;
   margin-left: 140px;
   margin-bottom: 20px;
   display: flex;
@@ -496,6 +500,9 @@ main #section-2 .section-2_wrapper-companies .right {
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
 }
+main #section-2 .section-2_wrapper-companies .right:hover {
+  animation-play-state: paused;
+}
 main #section-2 .section-2_wrapper-companies .right-wrap {
   padding: 16px 24px;
   background-color: #fff;
@@ -505,6 +512,7 @@ main #section-2 .section-2_wrapper-companies .right-wrap {
   height: 72px;
 }
 main #section-2 .section-2_wrapper-companies .left {
+  cursor: pointer;
   margin-right: 140px;
   display: flex;
   align-items: center;
@@ -513,6 +521,9 @@ main #section-2 .section-2_wrapper-companies .left {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
+}
+main #section-2 .section-2_wrapper-companies .left:hover {
+  animation-play-state: paused;
 }
 main #section-2 .section-2_wrapper-companies .left-wrap {
   padding: 16px 24px;
@@ -523,6 +534,7 @@ main #section-2 .section-2_wrapper-companies .left-wrap {
   height: 72px;
 }
 main #section-3 {
+  padding-left: 112px;
   padding-top: 88px;
   padding-bottom: 140px;
 }
@@ -609,8 +621,10 @@ main #section-3 .section-3_wrapper .info_wrappper_card-title a {
   letter-spacing: -0.8px;
 }
 main #section-4 {
+  padding-top: 136px;
+  padding-bottom: 136px;
+  padding-left: 112px;
   background-color: #8447e9;
-  padding: 136px 0px;
   color: #fff;
 }
 main #section-4 .projects {
@@ -685,7 +699,203 @@ main #section-4 .explore-3:active {
   background-color: transparent;
   color: #fff;
 }
+main #section-5 {
+  padding-left: 112px;
+  padding-top: 116px;
+  padding-bottom: 132px;
+}
+main #section-5 h2 {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  margin-bottom: 88px;
+}
+main #section-5 .user-wrapper {
+  width: 1040px;
+  height: 484px;
+  padding: 32px 36px;
+  background: #e1dbf6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main #section-5 .user-wrapper-title {
+  width: 517px;
+}
+main #section-5 .user-wrapper-title p {
+  color: #0f0f0f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 48px;
+}
+main #section-5 .user-wrapper-title h3 {
+  color: #8447e9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  margin-bottom: 4px;
+}
+main #section-5 .user-wrapper-title h4 {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main #section-5 .user-wrapper-title h4 span {
+  font-weight: 400;
+}
+main #section-6 {
+  padding: 88px 0px;
+}
+main #section-6 h2 {
+  margin-bottom: 88px;
+  color: #0f0f0f;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+main #section-6 .news-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 88px;
+}
+main #section-6 .news-wrapper_card {
+  display: flex;
+  flex-direction: column;
+}
+main #section-6 .news-wrapper_card-title {
+  margin-top: 50px;
+}
+main #section-6 .news-wrapper_card-title .type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8447e9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  margin-bottom: 20px;
+}
+main #section-6 .news-wrapper_card-title h3 {
+  width: 411px;
+  color: #0f0f0f;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+main #section-6 .explore-4 {
+  transition: all 0.4s ease;
+  border: 1px solid #8447e9;
+  background-color: #fff;
+  padding: 20px 32px;
+  color: #8447e9;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+main #section-6 .explore-4:hover {
+  background-color: #8447e9;
+  color: #fff;
+}
+main #section-6 .explore-4:active {
+  background-color: transparent;
+  color: #8447e9;
+}
+main #section-6 .explore-4 i {
+  font-size: 20px;
+}
 
 footer {
-  width: 100%;
+  padding-top: 88px;
+  padding-bottom: 205px;
+  background-color: #0f0f0f;
+}
+footer .footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-wrapper .footer-social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  left: 460px;
+}
+footer .footer-wrapper .footer-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1073px;
+  height: 385px;
+  padding: 101px 224px;
+  background-image: url("./../../assets/images/png-jpg/footer-last.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: 50px;
+  background-size: cover;
+  margin-bottom: 145px;
+}
+footer .footer-wrapper .footer-form h3 {
+  z-index: 40;
+  color: #f5f5f5;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -3.41px;
+  margin-bottom: 38px;
+}
+footer .footer-wrapper .footer-form button {
+  transition: all 0.4s ease;
+  padding: 20px 49px;
+  border: none;
+  background: #8447e9;
+  color: #f5f5f5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.96px;
+  color: #fff;
+}
+footer .footer-wrapper .footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  gap: 400px;
+  margin-bottom: 60px;
+}
+footer .footer-wrapper .footer-info ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+footer .footer-wrapper .footer-info ul li {
+  color: #f5f5f5;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

@@ -121,6 +121,7 @@ main {
       }
 
       .right {
+        cursor: pointer;
         margin-left: 140px;
         margin-bottom: 20px;
         display: flex;
@@ -130,6 +131,10 @@ main {
         animation-duration: 30s;
         animation-iteration-count: infinite;
         animation-fill-mode: backwards;
+
+        &:hover {
+          animation-play-state: paused;
+        }
 
         &-wrap {
           padding: 16px 24px;
@@ -142,6 +147,7 @@ main {
       }
 
       .left {
+        cursor: pointer;
         margin-right: 140px;
         display: flex;
         align-items: center;
@@ -150,6 +156,10 @@ main {
         animation-duration: 30s;
         animation-iteration-count: infinite;
         animation-fill-mode: backwards;
+
+        &:hover {
+          animation-play-state: paused;
+        }
 
         &-wrap {
           padding: 16px 24px;
@@ -164,6 +174,7 @@ main {
   }
 
   #section-3 {
+    padding-left: 112px;
     padding-top: 88px;
     padding-bottom: 140px;
 
@@ -265,8 +276,10 @@ main {
   }
 
   #section-4 {
+    padding-top: 136px;
+    padding-bottom: 136px;
+    padding-left: 112px;
     background-color: #8447e9;
-    padding: 136px 0px;
     color: #fff;
 
     .projects {
@@ -348,6 +361,149 @@ main {
       &:active {
         background-color: transparent;
         color: #fff;
+      }
+    }
+  }
+
+  #section-5 {
+    padding-left: 112px;
+    padding-top: 116px;
+    padding-bottom: 132px;
+
+    h2 {
+      color: #000;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -1.6px;
+      margin-bottom: 88px;
+    }
+
+    .user-wrapper {
+      width: 1040px;
+      height: 484px;
+      padding: 32px 36px;
+      background: #e1dbf6;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &-title {
+        width: 517px;
+
+        p {
+          color: #0f0f0f;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: -0.48px;
+          margin-bottom: 48px;
+        }
+
+        h3 {
+          color: #8447e9;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: -0.8px;
+          margin-bottom: 4px;
+        }
+
+        h4 {
+          color: #0f0f0f;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+
+          span {
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+
+  #section-6 {
+    padding: 88px 0px;
+
+    h2 {
+      margin-bottom: 88px;
+      color: #0f0f0f;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -1.6px;
+    }
+
+    .news-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      margin-bottom: 88px;
+
+      &_card {
+        display: flex;
+        flex-direction: column;
+
+        &-title {
+          margin-top: 50px;
+
+          .type {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #8447e9;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -0.8px;
+            margin-bottom: 20px;
+          }
+
+          h3 {
+            width: 411px;
+            color: #0f0f0f;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    .explore-4 {
+      transition: all 0.4s ease;
+      border: 1px solid #8447e9;
+      background-color: #fff;
+      padding: 20px 32px;
+      color: #8447e9;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.8px;
+
+      &:hover {
+        background-color: #8447e9;
+        color: #fff;
+      }
+
+      &:active {
+        background-color: transparent;
+        color: #8447e9;
+      }
+
+      i {
+        font-size: 20px;
       }
     }
   }
